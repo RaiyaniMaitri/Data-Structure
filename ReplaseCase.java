@@ -15,9 +15,9 @@ public class ReplaseCase{
             if(Character.isUpperCase(ch)){
                 convertedString.append(Character.toLowerCase(ch));
             } 
-			else if(Character.isLowerCase(ch)) {
-                convertedString.append(Character.toUpperCase(ch));
-            } 
+		else if(Character.isLowerCase(ch)) {
+                	convertedString.append(Character.toUpperCase(ch));
+            	} 
         }
 		System.out.println("Converted string: "+convertedString.toString());
 	}
